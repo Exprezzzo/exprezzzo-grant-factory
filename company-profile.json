@@ -1,0 +1,49 @@
+{
+  "company": {
+    "legal_name": "EXPREZZZO",
+    "brand_name": "EXPREZZZO (3 Z's)",
+    "founded": 2022,
+    "address": {
+      "city": "Las Vegas",
+      "state": "NV",
+      "years_in_location": 23
+    }
+  },
+  "founder": {
+    "name": "Jay",
+    "age": 53,
+    "background": {
+      "kidney_transplant_year": 2022,
+      "industry_years": 23,
+      "industry": "Las Vegas hospitality",
+      "previous_roles": [
+        "Law enforcement",
+        "Gang rehabilitation specialist",
+        "Personal assistant to casino owner (2007-2018)"
+      ]
+    },
+    "health_constraints": {
+      "work_blocks": "2-hour maximum",
+      "reason": "Post-transplant health requirement"
+    }
+  },
+  "network": {
+    "vegas_contacts": 800,
+    "type": "Hospitality vendors and casino industry"
+  },
+  "value_proposition": {
+    "pricing": "$0.001 per operation",
+    "competitor_pricing": "$0.15 per operation",
+    "advantage": "150x cheaper"
+  },
+  "projects": {
+    "lvgt": {
+      "name": "Las Vegas Good Times",
+      "status": "75% complete",
+      "pending_features": 8
+    }
+  },
+  "equity_policy": {
+    "lifetime_max": "25%"
+  }
+}

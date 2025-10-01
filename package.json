@@ -4,18 +4,26 @@
   "type": "module",
   "scripts": {
     "build": "tsx scripts/build-grant.ts",
-    "test:sovereignty": "tsx scripts/test-sovereignty.ts",
+    "init:db": "tsx scripts/init-database.ts",
+    "status": "tsx scripts/status.ts",
+    "deadlines": "tsx scripts/deadlines.ts",
+    "export:pdf": "tsx scripts/export-pdf.ts",
     "docker:up": "docker compose up -d",
-    "docker:down": "docker compose down",
-    "test:ollama": "curl http://localhost:11434/api/version",
-    "dev": "tsx watch scripts/build-grant.ts"
+    "docker:down": "docker compose down"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "node-fetch": "^2.7.0"
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^16.6.1",
+    "handlebars": "^4.7.8",
+    "node-fetch": "^2.7.0",
+    "node-schedule": "^2.1.1",
+    "pizzip": "^3.1.7",
+    "puppeteer": "^23.0.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
     "@types/node": "^20.11.19",
+    "@types/node-schedule": "^2.1.7",
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   }
