@@ -1,0 +1,22 @@
+{
+  "name": "exprezzzo-grant-factory",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build-grant.ts",
+    "test:sovereignty": "tsx scripts/test-sovereignty.ts",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "test:ollama": "curl http://localhost:11434/api/version",
+    "dev": "tsx watch scripts/build-grant.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
