@@ -12,24 +12,40 @@
   "founder": {
     "name": "Jay",
     "age": 53,
+    "health": "Kidney transplant 2022, full recovery, 2-hour work blocks",
+    "experience": "23 years Vegas hospitality operations",
     "background": {
       "kidney_transplant_year": 2022,
+      "kidney_transplant_status": "Full recovery",
       "industry_years": 23,
-      "industry": "Las Vegas hospitality",
+      "industry": "Las Vegas hospitality operations",
+      "key_role": "Personal assistant to casino mogul 2007-2018",
       "previous_roles": [
         "Law enforcement",
         "Gang rehabilitation specialist",
-        "Personal assistant to casino owner (2007-2018)"
+        "Personal assistant to casino mogul (2007-2018)"
       ]
     },
     "health_constraints": {
       "work_blocks": "2-hour maximum",
-      "reason": "Post-transplant health requirement"
+      "reason": "Post-transplant health requirement",
+      "advantage": "Forces efficiency and focus"
     }
   },
   "network": {
-    "vegas_contacts": 800,
-    "type": "Hospitality vendors and casino industry"
+    "tier1_decision_makers": "40+",
+    "tier1_description": "Casino executives, hotel owners, restaurant operators with direct purchasing authority",
+    "tier2_linkedin": "200+",
+    "tier2_description": "Vegas hospitality professionals for market validation and referrals",
+    "tier3_vendor_database": "500+",
+    "tier3_description": "Verified businesses in Las Vegas Good Times platform",
+    "total_network": "740+",
+    "legacy_reference": {
+      "vegas_contacts": 800,
+      "note": "Original reference - now detailed in tiered structure"
+    },
+    "type": "Hospitality vendors and casino industry",
+    "competitive_advantage": "Built-in customer acquisition no competitor can replicate"
   },
   "value_proposition": {
     "pricing": "$0.001 per operation",
